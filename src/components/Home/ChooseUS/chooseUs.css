@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@300&display=swap');
+
+.container-choose{
+    overflow-x: hidden !important;
+    margin-left: 5%;
+    margin-right: 5%;
+	border-radius: 3%;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .container-choose{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+          
+  }
+    
+    /* Media Query for low resolution  Tablets, Ipads */
+    @media (min-width: 481px) and (max-width: 768px) {
+        .container-choose{
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+    }  
+
+.yellow {
+    --bg-color: var(--choose-yellow);
+    --bg-color-light: #ffeeba;
+    --text-color-hover: #4C5656;
+    --box-shadow-color: rgba(255, 215, 97, 0.48);
+  }
+  
+  .green {
+    --bg-color: var(--choose-green);
+    --bg-color-light: #e2fced;
+    --text-color-hover: #4C5656;
+    --box-shadow-color: rgba(184, 249, 211, 0.48);
+  }
+  
+  .purple {
+    --bg-color: #CEB2FC;
+    --bg-color-light: #F0E7FF;
+    --text-color-hover: #fff;
+    --box-shadow-color: rgba(206, 178, 252, 0.48);
+  }
+  
+  .blue {
+    --bg-color: var(--choose-blue);
+    --bg-color-light: #f1f7ff;
+    --text-color-hover: #4C5656;
+    --box-shadow-color: rgba(220, 233, 255, 0.48);
+  }
+  
+  .card-choose {
+    max-width: 350px;
+    height: 321px;
+    background: var(--falcon-200);
+    background-image: url("../../../assets/img/card-bg.png");
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+  }
+  
+  .card-choose:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+      0 24px 46px var(--box-shadow-color);
+  }
+  
+  .card-choose:hover .overlay {
+    transform: scale(5) translateZ(0);
+  }
+  
+  .card-choose:hover .circle {
+    border-color: var(--bg-color-light);
+    background: var(--bg-color);
+  }
+  
+  .card-choose:hover .circle:after {
+    background: var(--bg-color-light);
+  }
+  
+  .card-choose:hover p {
+    color: var(--text-color-hover);
+  }
+  
+  .card-choose:active {
+    transform: scale(1) translateZ(0);
+    box-shadow: 0 15px 24px rgba(0,0,0,0.11),
+      0 15px 24px var(--box-shadow-color);
+  }
+  
+  .card-choose p {
+    font-size: 17px;
+    color: #4C5656;
+    margin-top: 30px;
+    z-index: 1000;
+    transition: color 0.3s ease-out;
+  }
+  
+  .circle {
+    width: 131px;
+    height: 131px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease-out;
+    top: -125px;
+  }
+
+  .circle:after {
+    content: "";
+    width: 116px;
+    height: 118px;
+    display: block;
+    position: absolute;
+    background: var(--bg-color);
+    border-radius: 50%;
+    top: 4px;
+    left: 6px;
+    transition: opacity 0.3s ease-out;
+  }
+  
+  .circle .icon-image {
+    z-index: 10000;
+    transform: translateZ(0);
+    height: 90px;
+  }
+
+
+  .overlay {
+    width: 118px;
+    position: relative; 
+    height: 118px;
+    border-radius: 50%;
+    background: var(--bg-color);
+    z-index: 0;
+    transition: transform 0.3s ease-out;
+  }
+
+  .choose-title {
+    position: absolute;
+    font-size: 23px !important;
+    font-weight: 900 !important;
+    color: var(--falcon-900) !important;
+    text-align: center;
+    top: 150px;
+    font-family: 'Fredoka', sans-serif;
+  }
+
+  .choose-details {
+    position: absolute;
+    font-size: 15px !important;
+    color: var(--falcon-1000) !important;
+    font-weight: 600;
+    text-align: center;
+    top: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Roboto Serif', serif;
+  }
+
+
+
+  @media (min-width: 767px) and (max-width: 1000px) {
+    .choose-title {
+      font-size: 18px !important;
+    }
+  
+    .choose-details {
+      font-size: 12px !important;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+  .choose-title {
+    font-size: 18px !important;
+  }
+
+  .choose-details {
+    font-size: 12px !important;
+  }
+
+}

@@ -1,0 +1,70 @@
+.carousel-container{
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+
+.carousel{
+  align-items: center;
+}
+
+.carousel img {
+    height: 250px;  /* change this to whatever you want */
+    width: 100%;
+}
+
+/* .carousel-img3 {
+  width: 30% !important;
+} */
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .carousel img {
+    height: 250px;  /* change this to whatever you want */
+}
+.carousel-img3 {
+  width: 40% !important;
+}
+
+	
+}
+  
+  /* Media Query for low resolution  Tablets, Ipads */
+  @media (min-width: 481px) and (max-width: 768px) {
+    .carousel img {
+      height: 350px;  /* change this to whatever you want */
+  }
+  }
+  
+  /* Media Query for Tablets Ipads portrait mode */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .carousel img {
+      height: 450px;  /* change this to whatever you want */
+  }
+  }
+  
+  
+  /* Media Query for Laptops and Desktops */
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .carousel img {
+      height: 550px;  /* change this to whatever you want */
+  }	
+
+  }
+  
+  /* Media Query for Large screens */
+  @media (min-width: 1281px) {
+    .carousel img {
+      height: 600px;  /* change this to whatever you want */
+  }	
+}
+
+
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+

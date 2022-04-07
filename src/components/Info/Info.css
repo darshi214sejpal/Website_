@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+.container-info{
+    overflow-x: hidden !important;
+    margin-left: 5%;
+    margin-right: 5%;
+  	border-radius: 3%;
+}
+
+.info-box {
+	width: 170px !important;
+	height: 30px;
+	background-image: linear-gradient(to bottom right, #0275d8, #5bc0de);
+	color: #fff;
+	position: relative !important;
+	align-items: center !important;
+	border-radius: 500px;
+	font-weight: 700;
+    margin-left: 30px;
+    padding-top: 0.2%;
+  }
+  .info-box.info-arrow-bottom:after {
+	content: " ";
+	position: absolute;
+	right: 20px;
+	bottom: -10px;
+	border-top: 10px solid #5bc0de;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+	border-bottom: none;
+  }
+
+
+.info-image{
+    height: 320px;
+    width: 400px;
+}
+
+.snip1295 {
+    position: relative;
+    overflow: hidden;
+    margin: 7px;
+    padding: 6px;
+    min-width: 350px !important;
+    max-width: 350px !important;
+    width: 100%;
+    box-shadow: none !important;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-box-sizing: padding-box;
+    box-sizing: padding-box;
+  }
+  .snip1295 img {
+    max-width: 100%;
+    vertical-align: top;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  }
+  .snip1295 .border {
+    position: absolute;
+    opacity: 0.45;
+  }
+  .snip1295 .border:before,
+  .snip1295 .border:after,
+  .snip1295 .border div:before,
+  .snip1295 .border div:after {
+    background-color: var(--portfolio-name);
+    position: absolute;
+    content: "";
+    display: block;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  .snip1295 .border:before,
+  .snip1295 .border:after {
+    width: 0;
+    height: 1px;
+  }
+  .snip1295 .border div:before,
+  .snip1295 .border div:after {
+    width: 1px;
+    height: 0;
+  }
+  .snip1295 .border.one {
+    left: 0;
+    top: 0;
+    right: 12px;
+    bottom: 12px;
+  }
+  .snip1295 .border.one:before,
+  .snip1295 .border.one div:before {
+    left: 0;
+    top: 0;
+  }
+  .snip1295 .border.one:after,
+  .snip1295 .border.one div:after {
+    bottom: 0;
+    right: 0;
+  }
+  .snip1295 .border.two {
+    left: 12px;
+    top: 12px;
+    right: 0;
+    bottom: 0;
+  }
+  .snip1295 .border.two:before,
+  .snip1295 .border.two div:before {
+    right: 0;
+    top: 0;
+  }
+  .snip1295 .border.two:after,
+  .snip1295 .border.two div:after {
+    bottom: 0;
+    left: 0;
+  }
+  .snip1295 a {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+  }
+  .snip1295:hover .border:before,
+  .snip1295.hover .border:before,
+  .snip1295:hover .border:after,
+  .snip1295.hover .border:after {
+    width: 100%;
+  }
+  .snip1295:hover .border div:before,
+  .snip1295.hover .border div:before,
+  .snip1295:hover .border div:after,
+  .snip1295.hover .border div:after {
+    height: 100%;
+  }
+  
+/* Media Query for Mobile Devices
+@media (max-width: 480px) {
+    .snip1295 {
+        min-width: 350px;
+        max-width: 400px;
+    }
+    .category-style{
+      font-size: 14px !important;
+    }
+  }
+    
+    /* Media Query for low resolution  Tablets, Ipads */
+    @media (min-width: 481px) and (max-width: 580px) {
+        .snip1295 {
+            min-width: 350px;
+            max-width: 370px;
+          }   
+          /* .category-style{
+            font-size: 12px !important;
+          } */
+    }
+
+    @media (min-width: 581px) and (max-width: 768px) {
+        .snip1295 {
+            min-width: 350px;
+            max-width: 370px;
+          }
+          /* .category-style{
+            font-size: 20px !important;
+          } */
+    }
+    
+    /* Media Query for Tablets Ipads portrait mode */
+    @media (min-width: 768px) and (max-width: 990px) {
+        .snip1295 {
+            min-width: 300px;
+            max-width: 350px;
+            padding: 6px;
+          }
+          /* .category-style{
+            font-size: 20px !important;
+          } */
+    }
+    
+    
+    /* Media Query for Laptops and Desktops */
+    @media (min-width: 990px) and (max-width: 1280px) {
+        .snip1295 {
+            min-width: 270px;
+            max-width: 350px;
+            padding: 4px;
+            margin-left: -20px;
+            margin-right: -20px
+          }
+          /* .category-style{
+            font-size: 15px !important;
+          } */
+  
+    }
+    
+    /* Media Query for Large screens */
+    @media (min-width: 1281px) {
+        .snip1295 {
+            min-width: 350px;
+            max-width: 370px;
+            padding: 6px;
+          }
+          /* .category-style{
+            font-size: 20px !important;
+          } */
+  } 
+
+.category-style{
+  font-size: 20px;
+  display: inline;
+  font-weight: 700;
+  color: var(--falcon-1000);
+  font-family: 'Fredoka', sans-serif;
+}

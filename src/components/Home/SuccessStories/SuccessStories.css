@@ -1,0 +1,90 @@
+.container-success{
+    overflow: initial !important;
+    margin-left: 5%;
+    margin-right: 5%;
+	border-radius: 3%;
+    margin-bottom: 5%;
+}
+
+.success-box {
+	width: 150px !important;
+	height: 30px;
+	background-image: linear-gradient(to bottom right, #0275d8, #5bc0de);
+	color: #fff;
+	position: relative !important;
+	align-items: center !important;
+	border-radius: 500px;
+	font-weight: 700;
+  margin-left: 30px;
+  padding-top: 0.2%;
+  }
+  .success-box.success-arrow-bottom:after {
+	content: " ";
+	position: absolute;
+	right: 30px;
+	bottom: -10px;
+	border-top: 10px solid #5bc0de;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+	border-bottom: none;
+  }
+
+
+.slider-design{
+    flex-direction: column;
+    align-items: center;}
+
+.img-before-after {
+    height: 320px;
+    width: 320px;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .img-before-after {
+        height: 300px;
+        width: 300px;
+    }
+      
+  }
+    
+    /* Media Query for low resolution  Tablets, Ipads */
+    @media (min-width: 481px) and (max-width: 580px) {
+        .img-before-after {
+            height: 200px;
+            width: 200px;
+        }
+    }
+
+    @media (min-width: 581px) and (max-width: 768px) {
+        .img-before-after {
+            height: 250px;
+            width: 250px;
+        }
+    }
+    
+    /* Media Query for Tablets Ipads portrait mode */
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .img-before-after {
+            height: 220px;
+            width: 220px;
+        }
+    }
+    
+    
+    /* Media Query for Laptops and Desktops */
+    @media (min-width: 1025px) and (max-width: 1280px) {
+        .img-before-after {
+            height: 250px;
+            width: 250px;
+        }	
+  
+    }
+    
+    /* Media Query for Large screens */
+    @media (min-width: 1281px) {
+        .img-before-after {
+            height: 320px;
+            width: 320px;
+        }	
+  }

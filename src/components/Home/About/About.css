@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+.about-container {overflow-x: hidden;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-image: var(--gradient-about-bg);
+	border-radius: 3%;
+}
+
+.about-text {
+	font-family: 'Roboto Slab', serif;
+}
+
+.img-me{
+	height: 450px;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+	.img-me{
+		height: 350px;
+	} 
+  }
+  
+  /* Media Query for low resolution  Tablets, Ipads */
+  @media (min-width: 481px) and (max-width: 768px) {
+	.img-me{
+		height: 350px;
+	}
+  }
+  
+  /* Media Query for Tablets Ipads portrait mode */
+  @media (min-width: 768px) and (max-width: 1024px) {
+	.img-me{
+		height: 550px;
+	}
+	.about-text {
+		margin-left: 80px !important;
+	}
+  }
+  
+  
+  /* Media Query for Laptops and Desktops */
+  @media (min-width: 1025px) and (max-width: 1280px) {
+	.img-me{
+		height: 400px;
+	}
+	.about-me-text-part{
+		margin-top: 0px !important;
+	}
+
+  }
+  
+  /* Media Query for Large screens */
+  @media (min-width: 1281px) {
+	.img-me{
+		height: 450px;
+	}
+	.about-me-text-part{
+		margin-top: -80px !important;
+	}
+  }
+
+.box {
+	width: 110px !important;
+	height: 30px;
+	background-image: linear-gradient(to bottom right, #0275d8, #5bc0de);
+	color: #fff;
+	position: relative !important;
+	align-items: center !important;
+	border-radius: 500px;
+	font-weight: 700;
+  }
+  .box.arrow-bottom:after {
+	content: " ";
+	position: absolute;
+	right: 30px;
+	bottom: -10px;
+	border-top: 10px solid #5bc0de;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+	border-bottom: none;
+  }

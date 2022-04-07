@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+.container-footer{
+    overflow-x: hidden !important;
+    background-color: var(--falcon-body-bg);
+}
+
+.style-footer{
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.footer-details{
+    font-family: 'Roboto Slab', serif;
+    margin-top: 10px;
+}
+
+.footer-title{
+    font-size: 25px;
+    color: var(--falcon-900);
+    font-weight: 600;
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(45deg, #00b0ff, #64ffda);
+    border-image-slice: 1; 
+    height: fit-content;
+    margin-bottom: -20px;
+}
+
+.footer-list-container{
+    margin-top: -10px !important;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+}
+
+.footer-list{
+    padding-bottom: 4px;
+}
+
+.footer-address{
+    font-family: 'Roboto Slab', serif;
+    margin-left: 10px;
+    margin-top: -4px;
+    font-size: 14px;
+}
+
+.topLogo{
+    margin-bottom: 0;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .footer-list-container{
+        margin-top: -40px !important;
+    }  
+    .topLogo{
+        margin-top: 20px;
+        margin-bottom: -20px;
+    }
+}
+  
+  /* Media Query for low resolution  Tablets, Ipads */
+  @media (min-width: 481px) and (max-width: 768px) {
+    .footer-list-container{
+        margin-top: -40px !important;
+    }
+    .topLogo{
+        margin-top: 20px;
+        margin-bottom: -20px;
+    }  
+  }
+
+    /* Media Query for low resolution  Tablets, Ipads */
+    @media (min-width: 769px) and (max-width: 996px) {
+        .footer-list-container{
+            margin-top: -20px !important;
+        }  
+      }
+  
+  /* Media Query for Tablets Ipads portrait mode */
+  @media (min-width: 995px) and (max-width: 1154px) {
+  }
+  
+  
+  /* Media Query for Laptops and Desktops */
+  @media (min-width: 1155px) and (max-width: 1380px) {
+
+  }
+  
+  /* Media Query for Large screens */
+  @media (min-width: 1380px){
+  
+  }

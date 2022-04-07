@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@300&display=swap');
+
+.center-name{
+    font-size: 20px;
+    display: inline;
+    margin-left: 10px;
+    font-weight: 700;
+    color: var(--falcon-900);
+    font-family: 'Fredoka', sans-serif;
+}
+
+.center-subtitle{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--falcon-900);
+    margin-bottom: 5px;
+    font-family: 'Roboto Serif', serif;
+}
+
+.center-container{
+    background-image: url("../../assets/img/card-bg.png");
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: var(--falcon-100);
+    padding-top: 15px;
+}
+
+@media (max-width: 480px) {
+    .center-name{
+        font-size: 15px;
+        margin-left: 2px;
+    }
+    
+    .center-subtitle{
+        font-size: 15px;
+    }   
+  
+  }
+  
+  /* Media Query for low resolution  Tablets, Ipads */
+
+  @media (min-width: 481px) and (max-width: 551px) {
+    .center-name{
+        font-size: 18px;
+        margin-left: 5px;
+    }
+    
+    .center-subtitle{
+        font-size: 16px;
+    }   
+
+  }
+
+  @media (min-width: 552px) and (max-width: 768px) {
+    .center-name{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    
+    .center-subtitle{
+        font-size: 18px;
+    }   
+
+  }
+  
+  /* Media Query for Tablets Ipads portrait mode */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .center-name{
+        font-size: 15px;
+        margin-left: 4px;
+    }
+    
+    .center-subtitle{
+        font-size: 15px;
+    }   
+
+  }
+  
+  /* Media Query for Laptops and Desktops */
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .center-name{
+        font-size: 18px;
+        margin-left: 4px;
+    }
+    
+    .center-subtitle{
+        font-size: 18px;
+    }   
+
+  }
+
+  @media (min-width: 1281px) and (max-width: 1380px) {
+    .center-name{
+        font-size: 19px;
+        margin-left: 5px;
+
+    }
+    
+    .center-subtitle{
+        font-size: 18px;
+    }   
+
+}
+  
+  /* Media Query for Large screens */
+  @media (min-width: 1381px) {
+    .center-name{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    
+    .center-subtitle{
+        font-size: 18px;
+    }   
+
+}

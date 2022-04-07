@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+.nav-service-container {overflow-x: hidden;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-image: var(--gradient-about-bg);
+}
+.img-service{
+    height: 350px;
+    width: 350px;
+}
+
+.service-text {
+	font-family: 'Roboto Slab', serif;
+}
+
+.service-list-text {
+	font-family: 'Roboto Slab', serif;
+}
+
+.service-head{
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--falcon-900);
+    font-family: 'Fredoka', sans-serif;
+}
+
+.service-subhead{
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--falcon-900);
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+	.img-service{
+		height: 350px;
+	} 
+  }
+  
+  /* Media Query for low resolution  Tablets, Ipads */
+  @media (min-width: 481px) and (max-width: 768px) {
+	.img-service{
+		height: 350px;
+	}
+  }
+
+    /* Media Query for low resolution  Tablets, Ipads */
+    @media (min-width: 769px) and (max-width: 996px) {
+        .img-service{
+            height: 300px;
+        }
+      }
+  
+  /* Media Query for Tablets Ipads portrait mode */
+  @media (min-width: 995px) and (max-width: 1154px) {
+	.img-service{
+		height: 270px;
+	}
+	.about-text {
+		margin-left: 80px !important;
+	}
+  }
+  
+  
+  /* Media Query for Laptops and Desktops */
+  @media (min-width: 1155px) and (max-width: 1380px) {
+	.img-service{
+		height: 300px;
+	}
+
+  }
+  
+  /* Media Query for Large screens */
+  @media (min-width: 1380px){
+	.img-service{
+		height: 350px;
+        width: 350px;
+	}
+  .service-text {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+  }
+  
+  }

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+.dropdown-menu::selection {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .dropdown:hover .dropdown-menu {
+        display: block !important;
+    }    
+}
+
+
+
+.navMenu{
+    background-color: var(--falcon-body-bg);
+}
+
+.navbar a {
+    font-size: 20px !important;
+    text-transform: capitalize;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 600;
+    color: var(--falcon-800) !important;
+    margin-right: 20px;
+}
+  
+  
+.navbar a:hover {
+    color: #3498db !important;
+}
+
+.navdrop{
+    font-family: 'Balsamiq Sans', cursive !important;
+    font-weight: 500 !important;
+    color: var(--falcon-900) !important;
+    background-color: var(--falcon-200) !important;
+}
+
+.active{
+    /* background-color: red; */
+    border-bottom: 3px solid var(--text-green);    
+ }

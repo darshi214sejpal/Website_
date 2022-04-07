@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+.nav-style{
+    background-color: var(--text-green);
+    height: 40px;
+}
+
+.nav-name{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 25px;
+    color: #344050;
+    font-weight: 600;
+}
+
+.socials-item{
+    position: relative;
+    width: 32px;
+    height: 32px;
+    background: #fff;
+    color: #242424;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-right: 5px;
+    border-radius: 35%;
+    transition: all .4s;    
+}
+
+.socials-item:nth-child(1){
+    border: 2px solid #25d366;
+
+}
+
+.socials-item:nth-child(2){
+    border: 2px solid #25d366;
+}
+
+.socials-item:nth-child(3){
+    border: 2px solid #25d366;
+}
+
+.socials-item:nth-child(4){
+    border: 2px solid #25d366;
+}
+
+.socials-item:hover::before{
+    transform: translateY(10px) scaleX(0.6) scaleY(0.8);
+    filter: blur(10px);
+}
+
+.socials-item:hover:nth-child(1){
+    color:  #25d366;
+    text-shadow: 0 0 20px  #25d366;
+    border: none;
+}
+
+.socials-item:hover:nth-child(2){
+    color: #1da1f2;
+    text-shadow: 0 0 20px #1da1f2;
+    border: none;
+}
+
+.socials-item:hover:nth-child(3){
+    color: #DB4437;
+    text-shadow: 0 0 20px #DB4437;
+    border: none;
+}
+
+.socials-item:hover:nth-child(4){
+    color: #c32aa3;
+    text-shadow: 0 0 20px #c32aa3;
+    border: none;
+}
