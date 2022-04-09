@@ -33,16 +33,18 @@
 }
 
 /* Media Query for Mobile Devices */
-@media (max-width: 480px) {
+@media (max-width: 450px) {
 	.img-service{
-		height: 350px;
+		height: 300px;
+    width: 300px;
 	} 
   }
   
   /* Media Query for low resolution  Tablets, Ipads */
-  @media (min-width: 481px) and (max-width: 768px) {
+  @media (min-width: 451px) and (max-width: 768px) {
 	.img-service{
 		height: 350px;
+    width: 350px;
 	}
   }
 
@@ -50,6 +52,7 @@
     @media (min-width: 769px) and (max-width: 996px) {
         .img-service{
             height: 300px;
+            width: 300px;
         }
       }
   
@@ -57,6 +60,7 @@
   @media (min-width: 995px) and (max-width: 1154px) {
 	.img-service{
 		height: 270px;
+    width: 270px;
 	}
 	.about-text {
 		margin-left: 80px !important;
@@ -68,6 +72,7 @@
   @media (min-width: 1155px) and (max-width: 1380px) {
 	.img-service{
 		height: 300px;
+    width: 300px;
 	}
 
   }
@@ -76,7 +81,7 @@
   @media (min-width: 1380px){
 	.img-service{
 		height: 350px;
-        width: 350px;
+    width: 350px;
 	}
   .service-text {
     font-family: 'Roboto Slab', serif;

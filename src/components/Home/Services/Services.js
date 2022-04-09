@@ -19,8 +19,8 @@ const Services = () => {
                   </div>
             </Row>
             <Row>
-                <p className='service-title ms-3'>Services We Provide</p>
-                <p className='ms-3 service-title-text'>We provide quality service and support.</p>
+                <p className='service-title ms-sm-3 ms-0'>Services We Provide</p>
+                <p className='ms-sm-3 ms-0 service-title-text'>We provide quality service and support.</p>
             </Row>
             <Row xs={1} sm={2} lg={3} className="g-4">
                 {ServicesData.map((service) => (

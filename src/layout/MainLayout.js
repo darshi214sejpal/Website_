@@ -22,7 +22,7 @@ const MainLayout = () => {
             <Route path="/" exact element={<Home />} />
             <Route path="/contact" exact element={<ContactMain />} />
             <Route path="/about" exact element={<AboutMain />} />
-            <Route path="/testimonals" exact element={<TestimonalsMain />} />
+            <Route path="/testimonials" exact element={<TestimonalsMain />} />
             <Route path="/info" exact element={<Info />} />
             {ServiceData.map(service => (
                 <Route path={`/service/${service.link_name}`} exact element={<NavService id={service.id} />} />

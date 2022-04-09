@@ -72,7 +72,37 @@
 
 
 /* Media Query for Mobile Devices */
-@media (max-width: 480px) {
+
+@media (max-width: 400px) {
+    .container-review {
+        height: 450px;    
+    }
+    
+    .review-swipe{
+        margin-left: 17%;
+        width: 70% !important;
+    }      
+    .review-text{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    .review-by{
+        font-size: 20px;
+    }
+    .review-title{
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    
+    .review-subtitle{
+        font-size: 15px;
+        margin-top: -15px !important;
+    }
+  }
+
+
+@media (min-width: 401px) and (max-width: 480px) {
     .container-review {
         height: 450px;    
     }
