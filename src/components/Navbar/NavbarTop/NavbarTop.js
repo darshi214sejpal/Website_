@@ -6,7 +6,7 @@ import "./NavbarTop.css"
 const NavbarTop = () => {
   return (
     <>
-    <div className="sticky-top">
+    <div className="sticky-top overflow-hidden">
         <Row className="align-items-center nav-style">
           <Col className='col-6 d-flex justify-content-center'> 
             <span className='nav-name'>Dr. Pooja Shah</span> </Col>
