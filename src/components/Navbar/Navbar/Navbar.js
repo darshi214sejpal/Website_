@@ -11,7 +11,7 @@ const NavbarMain = () => {
     (
         <>
             <div className="nav-container-style">
-            <Navbar className={classNames('fs--1 navMenu')} 
+            <Navbar className={classNames('fs--1 navMenu navbar-top')} 
                 collapseOnSelect expand="lg">
                 <Container className='mt-md-0 mt-1'>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" className='fs-0 ms-0'/>

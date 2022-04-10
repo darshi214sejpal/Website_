@@ -19,7 +19,7 @@
 
 .navMenu{
     background-color: var(--falcon-body-bg) !important;
-    
+    margin-left: -15px;   
 }
 
 .navbar a {
