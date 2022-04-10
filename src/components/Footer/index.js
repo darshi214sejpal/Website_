@@ -22,7 +22,7 @@ const Footer = () => {
                             <h4>Dr. Pooja Shah</h4>
                         </Col> */}
                         <Col className='col-md-12 col-12 d-flex justify-content-start align-items-start mt-md-0 mt-4'>
-                        <p className="text-justify footer-details">Dr. Pooja Shah is consulting homeopath and dieitician with more than 10 years of clinical experience. She is an expert in treating acute and chronic cases, especially for kids and skin diseases. Also an expert in obesity management.</p>
+                        <p className="text-justify footer-details">Dr. Pooja Shah is consulting homeopath and dietician with more than 10 years of clinical experience. She is an expert in treating acute and chronic cases, especially for kids and skin diseases. Also an expert in obesity management.</p>
                         </Col>
                         <Col className='col-md-10 col-12 d-flex justify-content-start align-items-start'>
                             <div className='d-flex justify-content-start'>

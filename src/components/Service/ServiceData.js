@@ -206,7 +206,7 @@ export const ServiceData = [
     },
     {
         id: 11,
-        name: 'Why Dieting?',
+        name: 'Why Diet?',
         link_name: 'dietician',
         image: require('../../assets/img/info/diet_tips/img (51).jpeg'),
         details: ['🎯 It is possible to prevent up to 80% of premature heart disease and stroke diagnoses with lifestyle changes, such as increasing physical activity and healthful eating.',

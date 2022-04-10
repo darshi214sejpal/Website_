@@ -178,7 +178,7 @@
 
 
 
-  @media (min-width: 767px) and (max-width: 1000px) {
+  @media (min-width: 501px) and (max-width: 1000px) {
     .choose-title {
       font-size: 18px !important;
     }
@@ -190,13 +190,13 @@
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .choose-title {
-    font-size: 18px !important;
+    font-size: 16px !important;
   }
 
   .choose-details {
-    font-size: 12px !important;
+    font-size: 10px !important;
   }
 
 }

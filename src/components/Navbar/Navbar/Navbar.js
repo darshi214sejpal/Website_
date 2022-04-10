@@ -28,7 +28,7 @@ const NavbarMain = () => {
                         <NavDropdown.Item eventKey="6" as={NavLink} exact to="/service/online-consult" className='navdrop'>Online Consultation</NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Link eventKey="7" as={NavLink} exact to="/testimonials" activeClassName="active">Testimonials</Nav.Link>
-                    <Nav.Link eventKey="8" as={NavLink} exact to="/info" activeClassName="active">Info</Nav.Link>
+                    <Nav.Link eventKey="8" as={NavLink} exact to="/info" activeClassName="active">Health Info</Nav.Link>
                     <Nav.Link eventKey="9" as={NavLink} exact to="/contact" activeClassName="active">Contact Us</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
