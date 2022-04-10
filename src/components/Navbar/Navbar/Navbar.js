@@ -10,11 +10,12 @@ const NavbarMain = () => {
   return (
     (
         <>
-            <Navbar className={classNames('fs--1 sticky-kit navMenu fixed')} 
+            <div className="nav-container-style">
+            <Navbar className={classNames('fs--1 navMenu')} 
                 collapseOnSelect expand="lg">
                 <Container className='mt-md-0 mt-1'>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" className='fs-0 ms-2'/>
-                <Logo at="navbar-top" width={200} id="topLogo" className="ms-3"/>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" className='fs-0 ms-0'/>
+                <Logo at="navbar-top" width={200} id="topLogo" className="ms-lg-3 ms-1"/>
                 <Navbar.Collapse id="responsive-navbar-nav" >
                     <Nav className="me-auto">
                     <Nav.Link eventKey="1" as={NavLink} exact to="/" activeClassName="active">Home</Nav.Link>
@@ -34,6 +35,7 @@ const NavbarMain = () => {
                 <TopNavRightSideNavItem />
                 </Container>
                 </Navbar>
+                </div>
         </>
     )
   )

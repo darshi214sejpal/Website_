@@ -11,6 +11,7 @@ import TestimonalsMain from 'components/Testimonals';
 import Info from 'components/Info';
 import { ServiceData } from 'components/Service/ServiceData';
 import NavService from 'components/Service';
+import Navbar from 'components/Navbar';
 
 const MainLayout = () => {
 
@@ -18,6 +19,7 @@ const MainLayout = () => {
     <>
       <NavbarTop />
       <NavbarMain />
+      {/* <Navbar /> */}
       <Routes>
             <Route path="/" exact element={<Home />} />
             <Route path="/contact" exact element={<ContactMain />} />
