@@ -16,37 +16,37 @@ const Home = () => {
   return (
     <>
       <BackTop />
-        <Row className="g-3 mb-6">
+        <Row className="g-0 mb-6">
           <Col>
             <CarouselMain />
           </Col>
         </Row>
-        <Row className="g-3 mb-7">
+        <Row className="g-0 mb-7">
           <Col>
             <About />
           </Col>
         </Row>
-        <Row className="g-3 mb-7">
+        <Row className="g-0 mb-7">
           <Col>
             <Services />
           </Col>
         </Row>
-        <Row className="g-3 mb-7">
+        <Row className="g-0 mb-7">
           <Col>
             <ChooseUS />
           </Col>
         </Row>
-        <Row className="g-3 mb-7">
+        <Row className="g-0 mb-7">
           <Col>
             <SuccessStories />
           </Col>
         </Row>
-        <Row className="g-3 mb-7">
+        <Row className="g-0 mb-7">
           <Col>
             <CustomerReview />
           </Col>
         </Row>
-        <Row className="g-3 mb-7">
+        <Row className="g-0 mb-7">
           <Col>
             <ContactUs />
           </Col>
