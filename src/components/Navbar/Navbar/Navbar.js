@@ -15,7 +15,7 @@ const NavbarMain = () => {
                 collapseOnSelect expand="lg">
                 <Container className='mt-md-0 mt-1'>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" className='fs-0 ms-0'/>
-                <Logo at="navbar-top" width={200} id="topLogo" className="ms-lg-3 ms-1"/>
+                <Logo at="navbar-top" width={190} id="topLogo" className="ms-lg-3 ms-sm-1 ms-0"/>
                 <Navbar.Collapse id="responsive-navbar-nav" >
                     <Nav className="me-auto">
                     <Nav.Link eventKey="1" as={NavLink} exact to="/" activeClassName="active">Home</Nav.Link>
