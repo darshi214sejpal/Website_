@@ -17,7 +17,7 @@ const TopNavRightSideNavItem = () => {
       <Nav.Item>
         <Nav.Link
           as={'div'}
-          className="px-sm-2 px-0 theme-control-toggle"
+          className="px-sm-2 px-1 theme-control-toggle"
           onClick={() => setConfig('isDark', !isDark)}
         >
             <div className="theme-control-toggle-label">
