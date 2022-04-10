@@ -10,11 +10,11 @@ const NavbarMain = () => {
   return (
     (
         <>
-            <Navbar className={classNames('fs--1 navbar-top sticky-kit navMenu')} 
+            <Navbar className={classNames('fs--1 sticky-kit navMenu fixed')} 
                 collapseOnSelect expand="lg">
                 <Container className='mt-md-0 mt-1'>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" className='fs-0 ms-2'/>
-                <Logo at="navbar-top" width={150} id="topLogo" className="ms-3"/>
+                <Logo at="navbar-top" width={200} id="topLogo" className="ms-3"/>
                 <Navbar.Collapse id="responsive-navbar-nav" >
                     <Nav className="me-auto">
                     <Nav.Link eventKey="1" as={NavLink} exact to="/" activeClassName="active">Home</Nav.Link>

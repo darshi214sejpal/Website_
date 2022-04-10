@@ -5,13 +5,12 @@ import img1 from "assets/img/swipe/img1_1.png";
 import img2 from "assets/img/swipe/img2.jpg";
 import img3 from "assets/img/swipe/img3.jpg";
 import img4 from "assets/img/swipe/img4.jpeg";
-import { Col, Row } from 'react-bootstrap';
 import "./Carousel.css"
 const CarouselMain = () => {
   return (
     <>
       <div className='container-fluid carousel-container'>
-      <Carousel showArrows={true} showThumbs={false} showStatus={false} infiniteLoop={true} autoPlay={true}>
+      <Carousel showArrows={true} showThumbs={false} showStatus={false} infiniteLoop={true} autoPlay={true} stopOnHover={false}>
         <div data-interval={8000} className='carousel'>
         <img src={img1} />
         </div>

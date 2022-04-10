@@ -21,7 +21,7 @@ const Info = () => {
   return (
     <>
         <BackTop />
-        <div className='container-info mt-md-4'>
+        <div className='container-info mt-6'>
             <Row>   
                 <div className='info-box info-arrow-bottom text-nowrap g-4 mb-4 ms-lg-5'>
                     More Information
@@ -46,7 +46,7 @@ const Info = () => {
                     </Col>
                     <Col className=''>
                         <button className='btn btn-warning text-nowrap'
-                        onClick={() => filterItem('health')}><p className='category-style'>Health</p></button>
+                        onClick={() => filterItem('health')}><p className='category-style'>Health Info</p></button>
                     </Col>
             </Row>
             <Row xs={2} md={3} className="g-4 mt-2 d-flex justify-content-center ms-2 ms-md-4 me-2 me-md-4">

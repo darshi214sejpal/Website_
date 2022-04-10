@@ -11,7 +11,7 @@ const ContactMain = () => {
   return (
     <>
         <BackTop />
-        <div className='container-contact mb-md-6 mt-md-4'>
+        <div className='container-contact mb-md-6 mt-6'>
             <Row>   
                 <div className='contact-box contact-arrow-bottom text-nowrap g-4 mb-4'>
                     Our Centers

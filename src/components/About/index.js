@@ -7,7 +7,7 @@ const AboutMain = () => {
   return (
     <>
         <BackTop />    
-        <div className='mt-6'></div>
+        <div className='mt-8'></div>
         <About />
         <div className='mt-6'></div>
         <ChooseUS />

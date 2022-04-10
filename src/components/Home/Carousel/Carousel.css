@@ -1,6 +1,7 @@
 .carousel-container{
   overflow-x: hidden !important;
   overflow-y: hidden !important;
+  margin-top: 65px;
 }
 
 .carousel{

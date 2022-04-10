@@ -13,7 +13,10 @@
 
 
 .navMenu{
-    background-color: var(--falcon-body-bg);
+    background-color: var(--falcon-body-bg) !important;
+    position: fixed !important;
+    z-index: 9999;
+    width: 100%;
 }
 
 .navbar a {

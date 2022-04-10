@@ -23,22 +23,28 @@ const About = () => {
                     {/* <h1>Hello</h1> */}
                     <div className='about-me-text-part'>
                     <div className='box arrow-bottom text-nowrap d-inline-flex p-3 mt-md-0 mt-5 ms-lg-0 ms-md-8'>
-                    About Me
+                    About Dr. Pooja
                     </div>
                     <div className='mt-3 ms-lg-4 ms-md-5'>
                     <p className='about-text'>
-                    Dr. Pooja shah, a consulting homeopath and a dietician by profession. She has experience in this field with more than 10years of experience. <br />
+                    Dr. Pooja shah, a consulting homeopath and a dietician by profession. She is in this field with more than 10years of experience. <br />
+                    </p><p className='about-text'>
                     She has passed out from CMP homeopathic medical college in year 2011 and then after
                     completing her graduate degree as a homeopathic doctor, she still had passion to study
                     further and attain another degree, so did a degree course in the field of nutrition and now
-                    successfully practicing as a consulting dietitian. <br />
-                    She has 2 centres as her own private clinic - vile parle west and vile parle east <br />
+                    successfully practicing as a consulting homeopath & dietitian. 
+                    </p>
+                    <p className='about-text'>
+                    She has 2 centres as her own private clinic - vile parle west and vile parle east
+                    </p><p className='about-text'>
                     She is expert in treating acute and chronic cases through homeopathy and helping out in
-                    their weight management through healthy diet and lifestyle modifications.<br />
+                    their weight management through healthy diet and lifestyle modifications.
+                    </p><p className='about-text'>
                     With more years of experience and learning, she then introduced body slimming
                     treatment which gives heat throughout the body in the session and then tightening the
                     skin though another equipment. The various sessions helps in inch loss/ fat loss and
-                    helps in body toning and body shaping.<br />
+                    helps in body toning and body shaping.
+                    </p><p className='about-text mb-2'>
                     So here is all in 1 solution of all your health related problems with Dr. Pooja Shah.
                     </p>
                     </div>

@@ -7,7 +7,7 @@ const TestimonalsMain = () => {
   return (
     <>
         <BackTop />
-        <div className='mt-md-4 mt-3'></div>
+        <div className='mt-6'></div>
         <SuccessStories />
         <div className='mt-5'></div>
         <CustomerReview />

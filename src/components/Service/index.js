@@ -18,7 +18,7 @@ const NavService = ({id}) => {
   return (
     <>    
     <BackTop />
-    <div className='nav-service-container mt-4 mb-4'>
+    <div className='nav-service-container mt-7 mb-4'>
     <Row className='align-items-top'>
         <Col className='col-lg-3 col-md-4 col-12 order-1 d-flex justify-content-start'>
             <div className='w-100 h-100 d-flex justify-content-start'>                
@@ -51,7 +51,7 @@ const NavService = ({id}) => {
     {ServiceData[projectId].services ?
     <>
       <Row>
-      <p className='service-head mt-5'>{ServiceData[projectId].name} Services</p>
+      <p className='service-head mt-5'>{ServiceData[projectId].service_name} Services</p>
       </Row>
       <Row xs={1} sm={2} lg={3} className="gx-4">
       {ServiceData[projectId].services.map((service) => (

@@ -22,13 +22,14 @@ export const ServiceData = [
     },
     {
         id: 2,
-        name: 'Homeopathy',
+        name: 'Why Homeopathy?',
         link_name: 'homoepathy',
         image: require('../../assets/img/info/homeopathy/img (1).jpeg'),
         details: ['Homeopathy is holistic because it treats the person as a whole, rather than focusing on a diseased part or a sickness.',
         'Homeopathy is natural because its remedies are produced from natural sources, whether vegetable, mineral, or animal in nature.',
         'Homeopathy is a scientific, logical, safe, quick, and extremely effective method of healing.',
         'It offers a long-lasting to permanent cure (in select conditions), treating the disease from its roots.'],
+        service_name: 'Homeopathy',
         services: [
             {
                 id: 1,
@@ -67,8 +68,8 @@ export const ServiceData = [
             {
                 id: 1,
                 subtitle: 'Our Body Slimming Treatment includes:',
-                details: ['🎯 8 INCH LOSS SESSIONS',
-                '🎯 3 DIET PLANS',
+                details: ['🎯 INCH LOSS SESSIONS',
+                '🎯 DIET PLANS',
                 '🎯 BMI ANALYSIS']
             }
         ]
@@ -205,7 +206,7 @@ export const ServiceData = [
     },
     {
         id: 11,
-        name: 'Dieting',
+        name: 'Why Dieting?',
         link_name: 'dietician',
         image: require('../../assets/img/info/diet_tips/img (51).jpeg'),
         details: ['🎯 It is possible to prevent up to 80% of premature heart disease and stroke diagnoses with lifestyle changes, such as increasing physical activity and healthful eating.',
@@ -217,6 +218,7 @@ export const ServiceData = [
                 '🎯 A healthful diet can help a person with diabetes in managing blood glucose levels.',
                 '🎯 A diet with adequate calcium and magnesium is important for strong bones and teeth. Keeping the bones healthy can minimize the risk of bone issues later in life, such as osteoporosis.',
                 '🎯 Children learn most health-related behaviours from the adults around them, and parents who model healthful eating and exercise habits tend to pass these on.'],
+        service_name: "Dieting",
         services: [
             {
                 id: 1,
