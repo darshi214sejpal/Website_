@@ -118,7 +118,7 @@ export const ServiceData = [
             {
                 id: 2,
                 subtitle: 'Our Detox Plan',
-                details: ['🎯 Our detox package includes various massages that help in relaxation, removal of dead skin, soften the skin help in overall body inch loss. Thus completing the entire detoxification process.',
+                details: ['🎯 Our detox package helps in relaxation, removal of dead skin, soften the skin help in overall body inch loss. Thus completing the entire detoxification process.',
                         '🎯 It also includes 2 sessions of deep heat therapy and EMS machine which helps in losing the extra fat from the body']
             },
             {
