@@ -35,25 +35,27 @@ export const ServiceData = [
                 id: 1,
                 name: "Homeopathy for Kids",
                 image : require('../../assets/img/services/homoepathy-kids.jpg'),
-        
+                link: 'homeopathy/kids'
             },
             {
                 id: 2,
                 name: "Homeopathy for Skin",
                 image : require('../../assets/img/services/homoepathy-skin.jpg'),
+                link: 'homeopathy/skin'
         
             },
             {
                 id: 3,
                 name: "Homeopathy for Joint Pains",
                 image : require('../../assets/img/services/joint-pains.jpg'),
+                link: 'homeopathy/joint-pains'
         
             },
             {
                 id: 4,
                 name: "Homeopathy for Acute / Chronic",
                 image : require('../../assets/img/services/acute.jpeg'),
-        
+                link: 'homoepathy/acute-chronic'
             },
         
         ]

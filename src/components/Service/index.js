@@ -54,7 +54,9 @@ const NavService = ({id}) => {
       <p className='service-head mt-5'>{ServiceData[projectId].service_name} Services</p>
       </Row>
       <Row xs={1} sm={2} lg={3} className="gx-4">
-      {ServiceData[projectId].services.map((service) => (
+      {ServiceData[projectId].services.map((service) => {
+        {console.log(service.name)}
+        return(
         <Col>
         <div class="card">
             <div class="imgBox">
@@ -63,10 +65,11 @@ const NavService = ({id}) => {
 
             <div class="contentBox mt-2 mb-2">
             <h3>{service.name}</h3>
+            <button className='read' onClick={() => {navigate(`/service/${service.link}`)}}>Read More</button>
             </div>
         </div>                
         </Col>
-    ))} 
+    )})}
       </Row>
     </> : null}
     </div>
