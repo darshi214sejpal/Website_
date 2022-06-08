@@ -20,21 +20,13 @@
     font-size: 20px;
     color: var(--falcon-1100);
     text-align: center;
-    margin-left: 15px;
     margin-top: -15px !important;
 }
 
-.review-swipe{
-    margin-left: 70px;
-    width: 55%;
-    overflow: initial;
-    height: 50px !important;
-}
 .carousel-review{
     background-color: var(--falcon-100);
-    width: 70%;
-    margin-left: 12%;
-    margin-right: 12%;
+    width: 55%;
+    margin: auto;
     margin-top: 20px;
     border: solid 2px var(--falcon-900);
 }
@@ -47,14 +39,14 @@
     margin-top: 10px;
 }
 
-.review-by{
+/* .review-by{
     font-size: 30px;
     font-weight: bold;
     margin-top: 20px;
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 10px;
-}
+} */
 
 .quotes-image-open{
     height: 8% !important;
@@ -66,7 +58,7 @@
     height: 8% !important;
     width: 8% !important;
     margin: 5px;
-    margin-top: -30px;
+    margin-top: -27px;
     float: right;
 }
 
@@ -75,21 +67,18 @@
 
 @media (max-width: 400px) {
     .container-review {
-        height: 450px;    
+        height: 450px;
     }
     
-    .review-swipe{
-        margin-left: 17%;
-        width: 70% !important;
-    }      
+    .carousel-review {
+        width: 90%;
+    }
+
     .review-text{
         font-size: 15px;
         font-weight: 600;
     }
     
-    .review-by{
-        font-size: 20px;
-    }
     .review-title{
         font-size: 25px;
         margin-top: 30px;
@@ -106,13 +95,11 @@
     .container-review {
         height: 450px;    
     }
+
+    .carousel-review {
+        width: 90%;
+    }
     
-    .review-swipe{
-        margin-left: 13%;
-        width: 80% !important;
-        align-items: center !important;
-        justify-content: center !important;
-    }      
     .review-text{
         font-size: 15px;
         font-weight: 600;
@@ -138,20 +125,16 @@
             height: 450px;    
         }
         
-        .review-swipe{
-            margin-left: 8%;
-            width: 90% !important;
-            align-items: center !important;
-            justify-content: center !important;
-        }      
+        .carousel-review {
+            width: 80%;
+        }
+    
+
         .review-text{
             font-size: 17px;
             font-weight: 600;
         }
         
-        .review-by{
-            font-size: 25px !important;
-        }
         .review-title{
             font-size: 30px;
             margin-top: 30px;

@@ -10,7 +10,7 @@ const CustomerReview = () => {
 
   return (
     <>
-        <div className='container-review'>
+        {/* <div className='container-review'>
             <Row>
                 <Col className='col-md-1 col-0'>
                 
@@ -19,7 +19,7 @@ const CustomerReview = () => {
                     <Row>
                     <p className='review-title'>Our Satisfied Patients</p>
                     <p className='review-subtitle'>Some of our great clients and their reviews.</p>
-                    <div className='review-swipe'>
+                    <div className='review-swipe bg-primary'>
                     <Carousel showArrows={false} showThumbs={false} showStatus={false} infiniteLoop={true} autoPlay={true}>
                     {CustomerReviewData.map((data) => (
                         <div data-interval={3000} className='carousel-review'>
@@ -29,7 +29,6 @@ const CustomerReview = () => {
                             ))}
                             <img src={CloseQuotes} alt='close-quotes' className='quotes-image-close'/>
                             <br />
-                            {/* <p className='review-by'>~ {data.written_by} </p> */}
                         </div>
                     ))}
                         
@@ -39,6 +38,24 @@ const CustomerReview = () => {
                 </Col>
                 <Col className='col-md-3'>
                 </Col>
+            </Row>
+        </div> */}
+        <div className='container-review'>
+            <Row>
+                <p className='review-title'>Our Satisfied Patients</p>
+                <p className='review-subtitle'>Some of our great clients and their reviews.</p>
+                <Carousel showArrows={false} showThumbs={false} showStatus={false} infiniteLoop={true} autoPlay={true}>
+                    {CustomerReviewData.map((data) => (
+                        <div data-interval={3000} className='carousel-review'>
+                            <img src={OpenQuotes} alt='open-quotes' className='quotes-image-open'/>
+                            {data.description.map((desc) => (
+                                <p className='review-text'>{desc}</p>
+                            ))}
+                            <img src={CloseQuotes} alt='close-quotes' className='quotes-image-close'/>
+                            <br />
+                        </div>
+                    ))}
+                    </Carousel>
             </Row>
         </div>
     </>

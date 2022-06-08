@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Row } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
 import "./SuccessStories.css"
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
@@ -13,7 +13,7 @@ const SuccessStories = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    pauseOnHover: true,
+    pauseOnHover: false,
     initialSlide: 0,
       responsive: [
         {
